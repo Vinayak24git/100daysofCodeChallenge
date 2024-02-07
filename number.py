@@ -13,6 +13,6 @@ def get_int():
                     pass  
                 else:
                     break
-    return x  
+    return x 
            
 main () 
