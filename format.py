@@ -10,3 +10,4 @@ print(f"hello, {name}")
 # re.search is used to capture user input
 #line 6, asked the variable matches to pass the group value of ()
 #into name
+#group 1 is 1st parenthesis and group 2 is value of 2nd ()
