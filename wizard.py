@@ -23,7 +23,7 @@ class Professor(Wizard):
         self.subject= subject
         
     ...
-wizard= Wizard("albus")   
-student= Student("harry", "gryffindor")
-professor= Professor("severus", "defence against dark arts")
+wizard= Wizard("albus")   #calls the init method of wizard
+student= Student("harry", "gryffindor")  #calls the init method of student 
+professor= Professor("severus", "defence against dark arts")#calls the init method of proff
    

@@ -1,18 +1,15 @@
-balance = 0 
+class Account:
+    def __init__(self): #initialising it, by default it takes 1 arg called self
+        self._balance = 0 #giving me instance varaible called balance initialised to 0
+        #_ is to indicate to myself that it is private. 
+        
+    
+def is_gryffindor(s):
+    return s["house"]== is_gryffindor
 
-def main():
-    print("balance:", balance)
-    deposit(100)
-    withdraw(50)
-    print("balance:", balance)
-    
-def deposit(n):
-    global balance
-    balance += n
-    
-def withdraw(n):
-    global balance
-    balance -= n
-    
-if __name__=="__main__":
-    main()
+gryfindoors = [{"name": "student", "house":"gryffindoor"} for student in students]
+print(gryfindoors)
+
+for i, student in enumerate(students):
+    print(i+1, student)
+
